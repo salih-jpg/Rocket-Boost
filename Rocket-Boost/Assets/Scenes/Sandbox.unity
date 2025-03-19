@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 298452221}
   - component: {fileID: 298452220}
   m_Layer: 0
-  m_Name: were
+  m_Name: Sphere
   m_TagString: Fuel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 298452219}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3975668, y: 10.2052355, z: 0.03}
+  m_LocalPosition: {x: -1.17, y: 10.2052355, z: 0.03}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 1162719639}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1053,6 +1053,18 @@ PrefabInstance:
       value: Dropship_01_Tank_Red
       objectReference: {fileID: 0}
     - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.97223115
       objectReference: {fileID: 0}
@@ -1090,6 +1102,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784729584878868064, guid: 8466feb154c65be4d95180b67df9364d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
