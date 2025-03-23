@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     [SerializeField] InputAction rotation;
     [SerializeField] float thrustStrength = 100;
     [SerializeField] float rotationStrength = 100;
-
+   
     AudioSource audioSource;
     Rigidbody rb;
 
@@ -53,7 +53,6 @@ public class Movement : MonoBehaviour
         }
         }
     }
-
     private void ProcessRotation(){
         
         float rotationInput = rotation.ReadValue<float>();
